@@ -1,0 +1,184 @@
+body{
+    background: rgb(1,50,67);
+    margin:0;
+    padding:0;
+    color:rgb(122,150,161);
+    font-family: sans-serif;
+    width:100%;
+}
+.h1{
+    color:rgb(50,245,200);
+    font-size: 150px;
+    line-height:97%;
+    width:85%;
+    margin:2% 0 1% 0;
+}
+.mid-bottom{
+    margin:2% 9% 0 9%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    position:relative;
+}
+.top img{
+    position:relative;
+    left:-0.4%;
+}
+.lltop{
+    margin:3% 0 0 8%;
+}
+.dis{
+    width:40%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom:2%;
+}
+button{
+    background:rgb(50,245,200);
+    color:rgb(1,50,67);
+    font-size:1.3rem;
+    font-weight:700;
+    padding:12px 9px;
+    border:none;
+    border-radius: 4px;
+    margin-bottom:3%;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.twitter img{
+    width:70%;
+}
+.follow{
+    font-weight:600;
+    color:rgb(156, 156, 156);
+}
+
+.img3,.img1,.img2,.img4,.img5,.img6{
+    width:9%;
+    position:absolute;
+    top:8%;
+    left:-6%;
+    z-index:-1;
+}
+.img6{
+    top:54%;
+    left:48%;
+
+}
+.img5{
+    left:65%;
+}
+.img4{
+    top:77%;
+    left:73%;
+    width:14%;  
+}
+.img2{
+   top:3%;
+   left:78%;
+   width:12%;
+}
+.img1{
+    top:50%;
+    left:83%;
+}
+@media screen and (max-width:599.9px){
+    .mid-bottom{
+        margin:2% 0 0 4.5%;
+    }
+    
+    .h1{
+        font-size:3.5rem;
+        line-height:110%;
+        margin:29% 0 0 0;
+    }
+    .dis{
+        width:85%;
+        font-size:1.5rem;
+        margin:9% 0 9% 0;
+        line-height:1.7rem;
+    }
+
+    .img3,.img6,.img1,.img2{
+        top:9%;
+        left:10%;
+        width:25%;
+    }
+    .img6,.img2{
+        left:58%;
+        top:59%;
+        width:37%;
+
+    }
+    .img4,.img5{
+        display:none;
+    }
+    .img2{
+       top:7%;
+    }
+    button{
+    padding:21px 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    }
+    .bottom{
+        margin-top:60%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1000px){
+    .top img{
+        width:30%;
+    }
+    .h1{
+        font-size:6rem;
+        margin:40% 0 7% 0;
+        line-height:8rem;
+    }
+    .dis{
+        width:85%;
+        font-size:1.7rem;
+        line-height:2.4rem;
+    }
+    button{
+        font-size:1.8rem;
+        font-weight:600;
+        margin:3% 0 20% 0;
+        padding:24px 17px;   
+    }
+    .bottom img{
+        width:100%;
+
+    }
+    .follow{
+        font-size:1.5rem;
+        margin-left:8px;
+    }
+    .img3,.img1,.img2,.img4,.img5{
+        width:23%;
+        left:4%;
+    }
+    .img1{
+        top:31%;
+        left:85%;
+    }
+    .img2{
+        left:77%;
+        width:30%;
+    }
+    .img4{
+        bottom:4%;
+        width:38%;
+        left:65%;
+    }
+    .img5{
+        top:21.9%;
+        left:63%;
+    }
+    .img6{
+        width:20%;
+        left:77%;
+    }
+
+}
